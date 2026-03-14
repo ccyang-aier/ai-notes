@@ -1,0 +1,11 @@
+{
+  "promptDelete": false,
+  "showInlineTitle": true,
+  "attachmentFolderPath": "./imgs",
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "deleteUnlinkedAttachments": "always",
+  "readableLineLength": false
+}
