@@ -97,6 +97,25 @@
       ]
     },
     {
+      "name": "glm-5",
+      "provider": "3rd party (openai-format)",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "apiKey": "sk-3def127bfc0e4cc585c939b2c19f5b8b",
+      "isEmbeddingModel": false,
+      "capabilities": [
+        "reasoning",
+        "vision",
+        "websearch"
+      ],
+      "stream": true,
+      "streamUsage": true,
+      "displayName": "glm-5",
+      "enableCors": false,
+      "maxTokens": 128000
+    },
+    {
       "name": "google/gemini-3-flash-preview",
       "provider": "openrouterai",
       "enabled": true,
@@ -278,37 +297,18 @@
       "name": "deepseek-ai/DeepSeek-V3",
       "provider": "siliconflow",
       "enabled": false,
-      "isBuiltIn": false,
+      "isBuiltIn": true,
       "baseUrl": "https://api.siliconflow.com/v1"
     },
     {
       "name": "deepseek-ai/DeepSeek-R1",
       "provider": "siliconflow",
       "enabled": false,
-      "isBuiltIn": false,
+      "isBuiltIn": true,
       "baseUrl": "https://api.siliconflow.com/v1",
       "capabilities": [
         "reasoning"
       ]
-    },
-    {
-      "name": "qwen3.5-plus",
-      "provider": "3rd party (openai-format)",
-      "enabled": true,
-      "isBuiltIn": false,
-      "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
-      "apiKey": "sk-3def127bfc0e4cc585c939b2c19f5b8b",
-      "isEmbeddingModel": false,
-      "capabilities": [
-        "reasoning",
-        "vision",
-        "websearch"
-      ],
-      "stream": true,
-      "streamUsage": true,
-      "displayName": "qwen3.5-plus",
-      "enableCors": false,
-      "maxTokens": 27100
     }
   ],
   "activeEmbeddingModels": [
